@@ -163,8 +163,6 @@ bool solutionViable(bool (* matrix)[9][9]){
 }
 
 bool solutionOK(bool (* matrix)[9][9]){
-// You need to translate the similar function in sudoku5.py into C++ here.
-// This function should look very similar to solutionViable above.
 	for (int i = 0; i < 9; i++){
 		for (int j = 0; j < 9; j++){
 			if (size(matrixp[i][j]) > 0){
